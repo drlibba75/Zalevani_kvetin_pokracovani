@@ -76,7 +76,7 @@ public class Plant {
         //ošetření chyby v datu zalévání (nesmí být před datem zasazení)
         if (watering.isBefore(planted))
          {
-            throw new PlantException("frekvence nesmí být nulová či záporná. Zadáno:"+frekvency);
+            throw new PlantException("datum zálivky nesmí být starší než datum zasazení");
         }
 
         this.watering = watering;
