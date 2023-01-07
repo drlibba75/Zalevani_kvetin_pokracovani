@@ -15,7 +15,7 @@ public class Main {
 
        System.out.println(kvetina2.getWateringInfo());
 
-       }
+        }
 
       catch (PlantException e)   {
       System.err.println(e.getLocalizedMessage());
