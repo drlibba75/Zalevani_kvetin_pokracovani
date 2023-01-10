@@ -16,20 +16,31 @@ public class Plant {
 
 
 
-    // první konstruktor pro nastavení všech atributů (throws upozorňuje, že zde může být výjimka)
+    // první konstruktor pro nastavení všech atributů (throws upozorňuje, že zde může být výjimka, v konstruktoru volám metody setFrekvency a setWatering)
+
+
     public Plant(String flowername, String notes, LocalDate planted, LocalDate watering, int frekvency) throws PlantException{
         this.flowername = flowername;
         this.notes = notes;
         this.planted = planted;
-        this.watering = watering;
-        this.frekvency = frekvency;
+        setWatering(watering);
+        setFrekvency(frekvency);
     }
+
 
 
    // druhý konstruktor nastaví jako poznámku prázdný řetězec a datum poslední zálivky nastaví na dnešní datum.
 
     public Plant(String flowername, LocalDate planted, int frekvency) throws PlantException{
-        this(flowername, "null", planted, LocalDate.now(), frekvency);
+        this.flowername = flowername;
+        this.notes = "null";
+        this.planted = planted;
+        this.watering = LocalDate.now();
+        setFrekvency(frekvency);
+
+
+
+
     }
 
 
@@ -128,6 +139,29 @@ public class Plant {
 
        return wateringInfo.toString();
 
+
    }
+
+       public String getPlantInfo(){
+
+           // převod LocalDate a int na String
+           DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+           String wateringAsString = watering.format(formatter);
+           String plantedAsString = planted.format(formatter);
+           String frekvencyAsString = String.valueOf(frekvency);
+
+
+       // vytvoření a naplnění listu s atributy rostliny
+           List<String> plantInfo = new ArrayList<>();
+           plantInfo.add(flowername);
+           plantInfo.add(notes);
+           plantInfo.add(plantedAsString);
+           plantInfo.add(wateringAsString);
+           plantInfo.add(frekvencyAsString);
+
+           return plantInfo.toString();
+       }
+
+
 
 }
