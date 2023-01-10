@@ -4,10 +4,10 @@ import java.util.List;
 
 public class ListOfPlants {
 
+// nevím jak zde pracovat s objekty...
 
 
 
-    List<Plant> plantsList = new ArrayList<>();
 
 }
 
