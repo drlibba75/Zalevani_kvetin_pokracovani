@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ae1ed49-aa8b-4e2e-9e57-6390275df24e" name="Changes" comment="Úkoly 1-7 new">
-      <change afterPath="$PROJECT_DIR$/src/ListOfPlants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Support.java" afterDir="false" />
+    <list default="true" id="0ae1ed49-aa8b-4e2e-9e57-6390275df24e" name="Changes" comment="Úkoly 1-9 new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListOfPlants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListOfPlants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Java_uloziste/Cykly podruhe"
+    "last_opened_file_path": "C:/Java_uloziste/Zalevani kvetin pokracovani"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673103879537</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Úkoly 1-9">
+      <created>1673347659490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673347659490</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Úkoly 1-9 new">
+      <created>1673347732310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673347732310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,15 +105,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Úkoly 1-7" />
     <MESSAGE value="Úkoly 1-7 new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Úkoly 1-7 new" />
+    <MESSAGE value="Úkoly 1-9" />
+    <MESSAGE value="Úkoly 1-9 new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Úkoly 1-9 new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>91</line>
+          <line>136</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
