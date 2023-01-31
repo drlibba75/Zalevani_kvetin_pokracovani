@@ -129,15 +129,21 @@ public class Plant {
 
        String recommendedAsString = recommended.format(formatter);
 
-// vytvoření a naplnění listu
 
-       List<String> wateringInfo = new ArrayList<>();
 
-       wateringInfo.add(flowername);
-       wateringInfo.add(wateringAsString);
-       wateringInfo.add(recommendedAsString);
+       return flowername+","+wateringAsString+", "+recommendedAsString;
 
-       return wateringInfo.toString();
+
+
+       // vytvoření a naplnění listu
+
+      // List<String> wateringInfo = new ArrayList<>();
+
+      // wateringInfo.add(flowername);
+      // wateringInfo.add(wateringAsString);
+      // wateringInfo.add(recommendedAsString);
+
+     //  return wateringInfo.toString();
 
 
    }
@@ -151,15 +157,19 @@ public class Plant {
            String frekvencyAsString = String.valueOf(frekvency);
 
 
-       // vytvoření a naplnění listu s atributy rostliny
-           List<String> plantInfo = new ArrayList<>();
-           plantInfo.add(flowername);
-           plantInfo.add(notes);
-           plantInfo.add(plantedAsString);
-           plantInfo.add(wateringAsString);
-           plantInfo.add(frekvencyAsString);
+         return  flowername+","+notes+","+plantedAsString+","+wateringAsString+", "+frekvencyAsString;
 
-           return plantInfo.toString();
+
+
+       // vytvoření a naplnění listu s atributy rostliny
+        //   List<String> plantInfo = new ArrayList<>();
+        //   plantInfo.add(flowername);
+        //   plantInfo.add(notes);
+         //  plantInfo.add(plantedAsString);
+         //  plantInfo.add(wateringAsString);
+         //  plantInfo.add(frekvencyAsString);
+
+        //   return plantInfo.toString();
        }
 
 

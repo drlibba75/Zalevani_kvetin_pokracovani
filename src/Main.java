@@ -52,9 +52,34 @@ public class Main {
       // získání květiny na zadaném indexu
             seznam1.getPlant(1);
 
+
+
      // odebrání květiny na zadaném indexu
              seznam1.removePlant(0);
-             System.out.println(seznam1.getPlants());
+             System.out.println("nový seznam: "+seznam1.getPlants());
+
+
+
+
+        } catch (PlantException e) {
+            System.err.println(e.getLocalizedMessage());
+
+        }
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -116,10 +141,6 @@ public class Main {
 
 
 
-        } catch (PlantException e) {
-            System.err.println(e.getLocalizedMessage());
-
-        }
 
 
 
@@ -131,7 +152,3 @@ public class Main {
 
 
 
-
-    }
-
-}

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ae1ed49-aa8b-4e2e-9e57-6390275df24e" name="Changes" comment="Úkoly 1-9 new">
+    <list default="true" id="0ae1ed49-aa8b-4e2e-9e57-6390275df24e" name="Changes" comment="Úkoly 1-9 again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListOfPlants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListOfPlants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673347732310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Úkoly 1-9 again">
+      <created>1675166367044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675166367044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,19 +114,20 @@
     <MESSAGE value="Úkoly 1-7 new" />
     <MESSAGE value="Úkoly 1-9" />
     <MESSAGE value="Úkoly 1-9 new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Úkoly 1-9 new" />
+    <MESSAGE value="Úkoly 1-9 again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Úkoly 1-9 again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>136</line>
+          <line>149</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>69</line>
+          <line>85</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
